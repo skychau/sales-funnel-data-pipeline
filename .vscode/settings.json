@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "[sql]": {
+    "editor.defaultFormatter": "innoverio.vscode-dbt-power-user" 
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
+}

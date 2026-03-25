@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_leads
+    columns:
+      - name: lead_id
+        tests:
+          - not_null
+          - unique
+
+      - name: email
+        tests:
+          - not_null
+
+      - name: source
+        tests:
+          - not_null
